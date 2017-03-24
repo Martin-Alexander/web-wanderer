@@ -25,8 +25,6 @@ link = gets.chomp
 source_link = link
 good_page = Nokogiri::HTML(open(link))
 
-# A good link can be parsed by Nokogiri and contains other links
-
 while true
   sleep(0.1)
   while true
